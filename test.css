@@ -1,0 +1,11 @@
+div {
+  myVariable: "red";
+  loop {
+    times: 3;
+    say: myVariable;
+    & loop {
+      times: 2;
+      say: "hello world, this is csss";
+    }
+  }
+}
